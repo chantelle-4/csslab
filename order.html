@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order | Fresh Italian Delights</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>Place Your Order</h1>
+
+<nav>
+    <a href="index.html">Home</a> 
+    <a href="menu.html">Menu</a> 
+    <a href="gallery.html">Gallery</a> 
+    <a href="order.html">Order</a> 
+    <a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<main>
+
+<p>
+Enjoy authentic Italian cuisine delivered fresh to your doorstep.
+</p>
+
+<form>
+<fieldset>
+<legend> Customer Information</legend>
+
+<label>Full Name:</label><br>
+<input type="text" required><br><br>
+
+<label>Email Address:</label><br>
+<input type="email" required><br><br>
+
+<label>Phone Number:</label><br>
+<input type="tel" required><br>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend> Build Your Order</legend>
+
+<div class="order-row">
+    <label>Starter:</label>
+    <select>
+        <option>None</option>
+        <option>Bruschetta al Pomodoro</option>
+        <option>Caprese Salad</option>
+        <option>Arancini Siciliani</option>
+        <option>Prosciutto e Melone</option>
+    </select>
+    <input type="number" min="0" max="10" value="0">
+</div>
+
+<br>
+
+<div class="order-row">
+    <label>Main Dish:</label>
+    <select required>
+        <option>Lasagna alla Bolognese</option>
+        <option>Spaghetti alla Carbonara</option>
+        <option>Fettuccine Alfredo</option>
+        <option>Risotto ai Funghi</option>
+        <option>Pizza Margherita</option>
+        <option>Pizza Quattro Formaggi</option>
+        <option>Pizza Diavola</option>
+    </select>
+    <input type="number" min="1" max="10" value="1">
+</div>
+
+<br>
+
+<div class="order-row">
+    <label>Vegetarian:</label>
+    <select>
+        <option>None</option>
+        <option>Melanzane alla Parmigiana</option>
+        <option>Pasta Primavera</option>
+        <option>Spinach & Ricotta Ravioli</option>
+        <option>Risotto agli Asparagi</option>
+    </select>
+    <input type="number" min="0" max="10" value="0">
+</div>
+
+<br>
+
+<div class="order-row">
+    <label>Dessert:</label>
+    <select>
+        <option>None</option>
+        <option>Tiramisu</option>
+        <option>Panna Cotta</option>
+        <option>Cannoli Siciliani</option>
+        <option>Gelato Italiano</option>
+    </select>
+    <input type="number" min="0" max="10" value="0">
+</div>
+
+<br>
+
+<div class="order-row">
+    <label>Drink:</label>
+    <select>
+        <option>None</option>
+        <option>Espresso Italiano</option>
+        <option>Cappuccino</option>
+        <option>Caffè Latte</option>
+        <option>Italian Hot Chocolate</option>
+        <option>Limonata Italiana</option>
+        <option>Italian Peach Iced Tea</option>
+        <option>Blood Orange Juice</option>
+        <option>San Pellegrino</option>
+    </select>
+    <input type="number" min="0" max="10" value="0">
+</div>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend> Special Instructions</legend>
+
+<textarea rows="4" placeholder="E.g. extra cheese, no onions, less salt..."></textarea>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend> Payment Method</legend>
+
+<input type="radio" name="pay" required> Cash on Delivery<br>
+<input type="radio" name="pay"> M-Pesa<br>
+<input type="radio" name="pay"> Card Payment
+
+</fieldset>
+
+<br>
+
+<input type="submit" value="Place Order">
+<input type="reset" value="Clear Form">
+
+</form>
+
+</main>
+
+<footer>
+
+<p> Fresh Italian Delights | Authentic Italian Cuisine</p>
+
+</footer>
+
+</body>
+</html>
